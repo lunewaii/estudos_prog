@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guanabara</title>
+</head>
+<body>
+    <h3>aqui coloco os ensinamentos do guanabara sobre javascript</h3>
+    <p>
+        window.prompt trata como string. </br>
+        pasteInt(n) (numero inteiro) ou parseFloat(n) (numero com virgula), para transformar string em numero</br>
+        posso usar somente Number(n) </br>
+        a variavel sendo n, n.toString() ou String(n) transforma em string</br>
+        outra forma de por variavel no meio:</br>
+        s.length reporta a quantidade de caracteres na string</br>
+        s.toUpperCase() coloca tudo em maiusculo, toLowerCase() vai pra minuscula</br>
+        num.toFixed(2) -> deixa o numero com duas casas decimais</br>
+        num.toFixed(2).replace('.', ',') -> o mesmo de cima, trocando ponto por virgula</br>
+        num.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) -> pega o numero e coloca em BRL
+    </p>
+    <script>
+        window.alert('Olá, Mundo!')//alerta
+        window.confirm('Está gostando de JavaScript?')//confirmação ok ou cancelar
+        var name = window.prompt('qual seu nome?')
+        var nameMarry = window.prompt('com quem você quer se casar?')
+        window.alert(`espero que você se case com ${nameMarry}!`) //precisa ser com crase
+        document.write(`${name} se casará com ${nameMarry}!`)
+    </script>
+</body>
+</html>
