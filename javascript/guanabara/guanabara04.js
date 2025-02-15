@@ -25,3 +25,4 @@ switch(diaSem){
         break
     default: //no caso de nao ser nenhum dos outros, caso eu tenha definido um dia pra variavel
         console.log('hoje é um dia da semana rs')
+    }
