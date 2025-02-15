@@ -1,5 +1,5 @@
-var aagora = new Date()
-var diaSem = aagora.getDay()
+var agora = new Date()
+var diaSem = agora.getDay()
 
 switch(diaSem){
     case 0:
