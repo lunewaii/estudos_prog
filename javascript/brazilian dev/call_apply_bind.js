@@ -19,13 +19,15 @@ const pessoa = {
 // call recebe os argumentos separados por vírgula
 // apply recebe os argumentos em um array
 
-//call
+//call muda o metodo de um objeto
 const obj1 = {
     exemplo1: "exemplo1",
     mostraThis: function() {
         console.log(this);
     }
 }
+
+obj1.mostraThis()
 
 const obj2 = {
     exemplo2: "exemplo2"
