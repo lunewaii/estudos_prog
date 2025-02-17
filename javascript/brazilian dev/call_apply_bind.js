@@ -33,4 +33,20 @@ const obj2 = {
     exemplo2: "exemplo2"
 }
 
-obj1.mostraThis.call(obj2); 
+obj1.mostraThis.call(obj2);
+
+//apply muda o metodo de um objeto
+const obj3 = {
+    exemplo3: "exemplo3",
+    mostraThis: function() {
+        console.log(this);
+    }
+}
+
+obj3.mostraThis()
+
+const obj4 = {
+    exemplo4: "exemplo4"
+}
+
+obj3.mostraThis.apply(obj4);
