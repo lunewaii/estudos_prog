@@ -12,10 +12,12 @@
     --shape-transparency: #ffffff8f;
     --text-color-primary: #313131;
     --text-color-secondary: #6C6C6C;
+
+    --font-family: "Open Sans", sans-serif;
 }
 
 body {
     color: var(--text-color-secondary);
-    /* background-color: var(--background-color); */
-    background-color: red;
+    background-color: var(--background-color);
+    /* background-color: red; */
 }
