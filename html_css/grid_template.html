@@ -7,22 +7,27 @@
     <style>
         body{
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+            /* grid-template-columns: 1fr 1fr 1fr 1fr; /*cada um fica com uma fraçao */
+            grid-template-columns: repeat(4, 200px); /*repete x vezes na quantidade*/
+            grid-template-rows: 200px 200px 200px; /*fraçoes de linha*/
+
         }
 
         div{
             border: 1px solid red;
         }
 
-        span{
-            border: 1px solid blue;
+        div:nth-child(1){
+            grid-column: 1 / 2; /*começa na coluna 1 e termina na 3*/
+            grid-row: 1 / 4; /*começa na linha 1 e termina na 3*/
         }
     </style>
     </style>
 </head>
 <body>
     <div>1</div>
-    <span>2</span>
-    <span>3</span>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
 </body>
 </html>
