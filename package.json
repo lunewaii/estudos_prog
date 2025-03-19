@@ -1,0 +1,30 @@
+{
+  "name": "estudos_prog",
+  "version": "1.0.0",
+  "description": "apenas anotaçoes e exercícios de programação",
+  "main": "index.js",
+  "scripts": {
+    "test": "node (archive name)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunewaii/estudos_prog.git"
+  },
+  "keywords": [
+    "estudos",
+    "programação",
+    "javascript",
+    "html",
+    "css",
+    "mysql",
+    "node",
+    "express",
+    "ejs"
+  ],
+  "author": "rebeca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lunewaii/estudos_prog/issues"
+  },
+  "homepage": "https://github.com/lunewaii/estudos_prog#readme"
+}
