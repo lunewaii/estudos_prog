@@ -5,9 +5,9 @@ function saudacao(nome) {
     console.log('Olá, ' + nome);
 }
 
-function processaEntradaUsuario(callback) {
+function processaEntradaUsuario(x) {
     var nome = 'Maria';
-    callback(nome);
+    x(nome);
 }
 
 processaEntradaUsuario(saudacao);
