@@ -31,19 +31,19 @@
             var valorProduto = document.querySelector('input[name=valor_produto]').value;
 
             if(nomeProduto.trim() === '' || valorProduto.trim() === ''){
-                alert('preencha todos os campos');
-            } else{
-                var valor = parseFloat(valorProduto);
-
-                if(isNaN(valor) || valor < 0){
-                    alert('Digite um valor válido');
-                } else{
-                    items.push({
-                        nome: nomeProduto,
-                        valor: valor
-                    });
-                }
+                return alert('preencha todos os campos');
             }
+            
+            var valor = parseFloat(valorProduto);
+
+            if(isNaN(valor) || valor < 0){
+                return alert('Digite um valor válido');
+            }
+
+            items.push({
+                nome: nomeProduto,
+                valor: valor
+            });
 
             document.querySelector('input[name=nome_produto]').value = '';
             document.querySelector('input[name=valor_produto]').value = '';
