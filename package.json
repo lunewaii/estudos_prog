@@ -28,6 +28,8 @@
   },
   "homepage": "https://github.com/lunewaii/estudos_prog#readme",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "mysql2": "^3.14.0",
+    "sequelize": "^6.37.7"
   }
 }
