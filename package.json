@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/lunewaii/estudos_prog/issues"
   },
-  "homepage": "https://github.com/lunewaii/estudos_prog#readme"
+  "homepage": "https://github.com/lunewaii/estudos_prog#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
