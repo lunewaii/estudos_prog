@@ -19,7 +19,8 @@
     "mysql",
     "node",
     "express",
-    "ejs"
+    "ejs",
+    "python"
   ],
   "author": "rebeca",
   "license": "ISC",
