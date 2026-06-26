@@ -12,3 +12,4 @@ print("valores do dicionario:", valores)
 
 itens = list(numeros.items())
 print("chave-valor do dicionario:", itens)   #cada conjunto vira uma tupla
+# pra acessar o numero 2, por exemplo, uso itens[0][1][0]
