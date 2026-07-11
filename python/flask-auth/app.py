@@ -1,8 +1,11 @@
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
-
+from models.user import User
+from database import db
 app = Flask(__name__)
-db = SQLAlchemy(app)
+app.config['SECRET_KEY'] = 'your-secret-key'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
+
+db.init_app(app)
 
 @app.route('/hi', methods=['GET'])
 def hi():
